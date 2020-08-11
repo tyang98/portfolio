@@ -13,14 +13,14 @@ module.exports = {
     lastName: `Yang`,
     description: `Tony Yang's personal site`,
     occupation: `Developer`,
-    keywords: [`Tony`, `Yang`, `Personal`, `Blog`, `Resume`, `Projects`, `Work`],
+    keywords: [`Tony`, `Yang`, `Personal`, `Resume`, `Projects`, `Work`],
     siteUrl:
       process.env.URL || process.env.DEPLOY_URL || `http://localhost:8000`,
     unemployed: true,
     designations: [
-      `Student`,
-      `Frontend Developer`,
-      `Mobile Developer`,
+      `CS @ Cornell`,
+      `Frontend/Mobile Developer`,
+      `Basketball Enthusiast`,
     ],
     readingList: [
       {
