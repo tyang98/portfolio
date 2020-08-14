@@ -5,6 +5,7 @@ import { PageLayout } from "../components"
 import { SEO } from "../utils"
 import { Container } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Logo from "../images/tony.png";
 
 export default ({ data }) => {
   const { firstName, lastName, } = data.site.siteMetadata
@@ -14,6 +15,7 @@ export default ({ data }) => {
       <SEO title="Home" />
       <Container className="text-center pt-5 mt-5" fluid>
         {
+
           <p className="mt-5">
 
             <h1
@@ -50,7 +52,7 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="/projects"
+            href="/work"
             target="_blank"
             rel="noopener noreferrer"
           >

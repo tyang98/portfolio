@@ -23,38 +23,8 @@ module.exports = {
       `Basketball Enthusiast`,
     ],
     readingList: [
-      {
-        title: `Sapiens: A Brief History of Humankind`,
-        author: `Yuval Noah Harari`,
-        link: `https://www.goodreads.com/book/show/23692271-sapiens`,
-      },
-      {
-        title: `Behave: The Biology of Humans at our Best and Worst`,
-        author: `Robert Sapolsky`,
-        link: `https://www.goodreads.com/book/show/31170723-behave`,
-      },
-      {
-        title: `The Gene: An Intimate History`,
-        author: `Siddhartha Mukeherjee`,
-        link: `https://www.goodreads.com/book/show/27276428-the-gene`,
-      },
     ],
     showsList: [
-      {
-        title: `Avatar: The Last Airbender`,
-        author: `Micheal DiMartino, Bryan Konietzko`,
-        link: `https://www.imdb.com/title/tt0417299/`,
-      },
-      {
-        title: `Love, Death & Robots`,
-        author: `Tim Miller`,
-        link: `https://www.imdb.com/title/tt9561862/`,
-      },
-      {
-        title: `Star Wars: The Clone Wars`,
-        author: `George Lucas, Dave Filoni`,
-        link: `https://www.imdb.com/title/tt0458290/`,
-      },
     ],
   },
   plugins: [
@@ -81,7 +51,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
-        icon: `${__dirname}/static/favicon.ico`, // This path is relative to the root of the site.
+        icon: `${__dirname}/static/favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-offline`,

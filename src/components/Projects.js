@@ -1,9 +1,10 @@
 import React from "react"
 import Img from "gatsby-image"
 import { Container, Row, Col, Badge } from "react-bootstrap"
+import GitHubIcon from '@material-ui/icons/GitHub';
 
-const CompanyCard = ({ frontmatter, image }) => {
-  const { company, position, startDate, endDate, location } = frontmatter
+const ProjectCard = ({ frontmatter, image }) => {
+  const { company, startDate, endDate, link } = frontmatter
   return (
     <Container fluid className="m-auto work-history">
       <Img
@@ -16,11 +17,17 @@ const CompanyCard = ({ frontmatter, image }) => {
       />
       <div className="md-font">
         <h2 className="m-auto pt-2">{company}</h2>
-        <h5 className="text-muted">{location}</h5>
-        <h4 className="mt-2">{position}</h4>
         <h5 className="text-muted mt-2">
-          {startDate}-{endDate}
+          {startDate == null ? `${endDate}` : `${startDate}-${endDate}`}
         </h5>
+        <h2>
+          <a href={`${link}`}>
+            <GitHubIcon
+              style={{
+                fontSize: '40'
+              }} />
+          </a>
+        </h2>
       </div>
     </Container>
   )
@@ -31,11 +38,12 @@ export default ({ html, frontmatter, image }) => {
     <Container className="p-1 project-link text-center">
       <Row>
         <Col className="col-md-4 col-12">
-          <CompanyCard frontmatter={frontmatter} image={image} />
+          <ProjectCard frontmatter={frontmatter} image={image} />
         </Col>
         <Col className="col-md-8 col-12">
           <p
             className="text-justify mt-2"
+            style={{ fontSize: 25, listStyleType: 'none' }}
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </Col>
