@@ -39,7 +39,7 @@ export default ({ data }) => {
               fontSize: "1.5rem",
             }}>
             <i>
-              <b> <span class="wave">👋</span> CS @ Cornell <span class="wave">👋</span></b>
+              <b> <span class="wave">👋</span> Sophomore Studying CS @ Cornell <span class="wave">👋</span></b>
             </i>
           </p>
         </Container>
