@@ -12,7 +12,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "clean-serve": "gatsby clean && gatsby build && gatsby serve"
+    "clean-serve": "gatsby clean && gatsby build && gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
