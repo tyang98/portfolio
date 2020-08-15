@@ -4,7 +4,7 @@ import { Container, Row, Col, Badge } from "react-bootstrap"
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 const ProjectCard = ({ frontmatter, image }) => {
-  const { company, startDate, endDate, link } = frontmatter
+  const { project, startDate, endDate, link } = frontmatter
   return (
     <Container fluid className="m-auto work-history">
       <Img
@@ -16,7 +16,7 @@ const ProjectCard = ({ frontmatter, image }) => {
         className="m-auto"
       />
       <div className="md-font">
-        <h2 className="m-auto pt-2">{company}</h2>
+        <h2 className="m-auto pt-2">{project}</h2>
         <h5 className="text-muted mt-2">
           {startDate == null ? `${endDate}` : `${startDate}-${endDate}`}
         </h5>

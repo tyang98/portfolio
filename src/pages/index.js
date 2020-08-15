@@ -3,9 +3,10 @@ import { graphql } from "gatsby"
 import ThemeContext from "../utils/theme"
 import { PageLayout } from "../components"
 import { SEO } from "../utils"
-import { Container } from "react-bootstrap"
+import { Container, Image } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import Logo from "../images/tony.png";
+import LightLogo from "../images/tony.png";
+import DarkLogo from "../images/tony-dark.png";
 
 export default ({ data }) => {
   const { firstName, lastName, } = data.site.siteMetadata
@@ -14,10 +15,13 @@ export default ({ data }) => {
     <PageLayout>
       <SEO title="Home" />
       <Container className="text-center pt-5 mt-5" fluid>
+        <p>
+          <Image
+            src={dark ? DarkLogo : LightLogo}>
+          </Image>
+        </p>
         {
-
-          <p className="mt-5">
-
+          <p className="mt-4">
             <h1
               style={{
                 fontSize: "5rem",

@@ -6,4 +6,4 @@ startDate: "2020-07-27"
 endDate: "2020-08-13"
 ---
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget augue commodo, rutrum enim vel, varius lorem. Ut nec sem metus.</p>
+A full-stack webapp that recommends both music and movies to users based on their song and movie selections. Implemented recommendation algorithm/logic using Flask (Python), with a responsive frontend created in React. To try mediaRec for yourself, visit either the GitHub repo or click [here](https://media-rec.herokuapp.com/).</p>
