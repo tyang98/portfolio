@@ -39,7 +39,9 @@ export default ({ data }) => {
               fontSize: "1.5rem",
             }}>
             <i>
-              <b> <span class="wave">👋</span> Sophomore Studying CS @ Cornell <span class="wave">👋</span></b>
+              <b> <span class="wave" role="img" aria-label="Wave">👋</span>
+                Sophomore Studying CS @ Cornell
+              <span class="wave" role="img" aria-label="Wave">👋</span></b>
             </i>
           </p>
         </Container>
