@@ -45,67 +45,106 @@ export default ({ data }) => {
         </Container>
         <hr className="my-3 w-25 mb-5" />
         <div className="d-md-inline-flex icons-container">
-          <a
-            href="/about"
-            rel="noopener noreferrer"
+
+          <Container
+            style={{ flexDirection: 'column' }}
           >
-            <FontAwesomeIcon
-              icon={["fas", "user"]}
-              className="icons user"
-              title="About"
-            />
-          </a>
-          <a
-            href="/work"
-            target="_blank"
-            rel="noopener noreferrer"
+            <a
+              href="/about"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={["fas", "user"]}
+                className="icons user"
+                title="About"
+                style={{ marginBottom: '7.5%' }}
+              />
+            </a>
+
+            <h4 style={{ color: 'gray' }}>About</h4>
+          </Container>
+
+          <Container
+            style={{ flexDirection: 'column' }}
           >
-            <FontAwesomeIcon
-              icon={["fas", "flask"]}
-              className="icons flask"
-              title="Projects"
-            />
-          </a>
-          <a
-            href="https://github.com/tyang98"
-            target="_blank"
-            rel="noopener noreferrer"
+            <a
+              href="/projects"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={["fas", "flask"]}
+                className="icons flask"
+                title="Projects"
+                style={{ marginBottom: '7.5%' }}
+              />
+            </a>
+            <h4 style={{ color: 'gray' }}>Projects</h4>
+          </Container>
+
+          <Container
+            style={{ flexDirection: 'column' }}
           >
-            <FontAwesomeIcon
-              icon={["fab", "github"]}
-              className="icons github"
-              title="Github"
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/tyang98/"
-            target="_blank"
-            rel="noopener noreferrer"
+            <a
+              href="https://github.com/tyang98"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={["fab", "github"]}
+                className="icons github"
+                title="Github"
+                style={{ marginBottom: '7.5%' }}
+              />
+            </a>
+            <h4 style={{ color: 'gray' }}>GitHub</h4>
+          </Container>
+
+
+          <Container
+            style={{ flexDirection: 'column' }}
           >
-            <FontAwesomeIcon
-              icon={["fab", "linkedin"]}
-              className="icons linkedin"
-              title="LinkedIn"
-            />
-          </a>
-          <a
-            href="mailto:txy3@cornell.edu"
-            target="_blank"
-            rel="noopener noreferrer"
+            <a
+              href="https://www.linkedin.com/in/tyang98/"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={["fab", "linkedin"]}
+                className="icons linkedin"
+                title="LinkedIn"
+                style={{ marginBottom: '7.5%' }}
+              />
+            </a>
+            <h4 style={{ color: 'gray' }}>LinkedIn</h4>
+          </Container>
+
+          <Container
+            style={{ flexDirection: 'column' }}
           >
-            <FontAwesomeIcon
-              icon={["fas", "envelope"]}
-              className="icons mail"
-              title="e-mail"
-            />
-          </a>
-          <a href="../../resume.pdf" target="_blank">
-            <FontAwesomeIcon
-              icon={["fas", "file-alt"]}
-              className="icons file"
-              title="Resume"
-            />
-          </a>
+            <a
+              href="mailto:txy3@cornell.edu"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={["fas", "envelope"]}
+                className="icons mail"
+                title="e-mail"
+                style={{ marginBottom: '7.5%' }}
+              />
+            </a>
+            <h4 style={{ color: 'gray' }}>Email</h4>
+          </Container>
+
+          <Container>
+            <a href="../../resume.pdf" target="_blank">
+              <FontAwesomeIcon
+                icon={["fas", "file-alt"]}
+                className="icons file"
+                title="Resume"
+                style={{ marginBottom: '7.5%' }}
+              />
+            </a>
+            <h4 style={{ color: 'gray' }}>Resume</h4>
+          </Container>
         </div>
       </Container>
     </PageLayout>
