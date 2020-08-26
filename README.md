@@ -2,6 +2,8 @@
 Made with GatsbyJS, which is blazing fast.
 Learn more by visiting my personal website [here!](https://tyang.netlify.app/)
 
-Stats:
+Check out some stats related to my work:
 
 ![Tony's github stats](https://github-readme-stats.vercel.app/api?username=tyang98&count_private=true)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tyang98&layout=compact)]
