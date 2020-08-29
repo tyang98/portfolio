@@ -2,7 +2,6 @@
 project: "Moody"
 tags: ["React Native", "TypeScript"]
 link: "https://github.com/Enochen/hoc20-mobile"
-startDate: "2020-08-27"
 endDate: "2020-08-29"
 ---
 
