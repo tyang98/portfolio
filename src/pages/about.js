@@ -74,7 +74,7 @@ export default ({ data }) => {
               <hr />
               <p className="unemployed">
                 <small>
-                  I am <b>currently looking for Software Engineering Internships for Summer 2021</b>! If you
+                  I am <b>currently looking for Software Engineering Internships for Spring 2021</b>! If you
                   like what you <Link to="/projects">see</Link>, you can contact me at <b><a href="mailto:txy3@cornell.edu">txy3@cornell.edu</a></b>
                   !
                 </small>
