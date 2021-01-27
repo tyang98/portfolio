@@ -20,7 +20,7 @@ module.exports = {
     unemployed: true,
     designations: [
       `CS @ Cornell`,
-      `Frontend/Mobile Developer`,
+      `Full-Stack/Mobile Developer`,
       `Basketball Enthusiast`,
     ],
     readingList: [
