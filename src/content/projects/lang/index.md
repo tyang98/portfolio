@@ -1,7 +1,7 @@
 ---
 project: "lang"
 tags: ["OCaml"]
-link: "https://github.com/tyang98/cs4110project"
+link: "https://github.com/tyang98/lang"
 startDate: "2020-10-27"
 endDate: "2020-12-18"
 ---
