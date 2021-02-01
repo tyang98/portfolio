@@ -56,7 +56,7 @@ export default ({ data }) => {
             </a>
             &nbsp;helping solve real problems to assist the community.
             I have experience with both frontend web (React) and mobile (Android, Flutter, React Native) development. Also, my interests
-            currently lie in full-stack development, PLT, and systems.
+            currently lie in full-stack development, Programming Language Theory, and systems.
           </p>
           <p className="i-5">
             Aside from programming and tech, I enjoy music, basketball, photography, and food. In my free time, I am usually on
