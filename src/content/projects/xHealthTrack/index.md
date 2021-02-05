@@ -2,7 +2,6 @@
 project: "xHealthTrack"
 tags: ["React.js", "TypeScript", "Express", "Firebase"]
 link: "https://github.com/tyang98/xHealthTrack"
-startDate: "2021-01-05"
 endDate: "2021-01-27"
 ---
 
