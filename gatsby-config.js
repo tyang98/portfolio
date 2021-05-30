@@ -23,10 +23,8 @@ module.exports = {
       `Full-Stack/Mobile Developer`,
       `Basketball Enthusiast`,
     ],
-    readingList: [
-    ],
-    showsList: [
-    ],
+    readingList: [],
+    showsList: [],
   },
   plugins: [
     `gatsby-plugin-preload-link-crossorigin`,

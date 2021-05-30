@@ -3,7 +3,7 @@ import React, { Component } from "react"
 const defaultState = {
   dark: false,
   toString: () => `light`,
-  toggleDark: () => { },
+  toggleDark: () => {},
 }
 
 const ThemeContext = React.createContext(defaultState)

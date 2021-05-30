@@ -5,12 +5,7 @@ import { Link, graphql } from "gatsby"
 import { SEO } from "../utils"
 
 export default ({ data }) => {
-
-  const {
-    author,
-    designations,
-    unemployed,
-  } = data.site.siteMetadata
+  const { author, designations, unemployed } = data.site.siteMetadata
 
   return (
     <PageLayout>
@@ -23,7 +18,7 @@ export default ({ data }) => {
           height="140"
           src="../../icons/pfp.png"
           alt={author}
-          styles={{ marginBottom: '5%' }}
+          styles={{ marginBottom: "5%" }}
         />
         <article className="w-75 mr-auto ml-auto mt-3 pt-2 text-justify">
           <p className="text-center">
@@ -35,7 +30,7 @@ export default ({ data }) => {
             ))}
           </p>
           <p className="i-5 mt-4 pt-2">
-            Hi there, I'm <b>Tony</b>. I am a sophomore at&nbsp;
+            Hi there, I'm <b>Tony</b>. I am a rising junior at&nbsp;
             <a
               href="https://www.cornell.edu/"
               target="_blank"
@@ -46,7 +41,17 @@ export default ({ data }) => {
             &nbsp;studying CS and minoring in Math.
           </p>
           <p className="i-5">
-            I am passionate about designing technology for social impact. At the moment, I am a software developer at &nbsp;
+            I am passionate about designing technology for social impact. I am
+            currently a Software Engineer Intern at Capital One working on the
+            <a
+              href="https://creditwise.capitalone.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CreditWise
+            </a>
+            Data Team. For the past 2 years I have been a software developer at
+            &nbsp;
             <a
               href="https://www.cornelldti.org/"
               target="_blank"
@@ -54,17 +59,22 @@ export default ({ data }) => {
             >
               Cornell Design & Tech Initiative
             </a>
-            &nbsp;helping solve real problems to assist the community.
-            I have experience with both frontend web (React) and mobile (Android, Flutter, React Native) development. Also, my interests
-            currently lie in full-stack development, Programming Language Theory, and systems.
+            &nbsp;helping solve real problems to assist the community. I have
+            experience with both frontend web (React) and mobile (Android,
+            Flutter, React Native) development. Also, my interests currently lie
+            in full-stack development, Programming Language Theory, and systems.
           </p>
           <p className="i-5">
-            Aside from programming and tech, I enjoy music, basketball, photography, and food. In my free time, I am usually on
-            a court playing pickup, taking pictures outside, or jamming out to some music.
+            Aside from programming and tech, I enjoy music, basketball,
+            photography, and food. In my free time, I am usually on a court
+            playing pickup, taking pictures outside, or jamming out to some
+            music.
           </p>
           <p className="i-5">
-            Whether it is making games, websites, or mobile apps, my goal is to make things that others can enjoy as well.
-            Check out my <Link to="/projects">projects</Link> to see my past and current work.
+            Whether it is making games, websites, or mobile apps, my goal is to
+            make things that others can enjoy as well. Check out my{" "}
+            <Link to="/projects">projects</Link> to see my past and current
+            work.
           </p>
           <br></br>
         </article>
@@ -74,14 +84,21 @@ export default ({ data }) => {
               <hr />
               <p className="unemployed">
                 <small>
-                  I am <b>currently looking for Software Engineering Internships for Fall 2021</b>! If you
-                  like what you <Link to="/projects">see</Link>, you can contact me at <b><a href="mailto:txy3@cornell.edu">txy3@cornell.edu</a></b>
+                  I am{" "}
+                  <b>
+                    currently looking for Software Engineering Internships for
+                    Summer 2022
+                  </b>
+                  ! If you like what you <Link to="/projects">see</Link>, you
+                  can contact me at{" "}
+                  <b>
+                    <a href="mailto:txy3@cornell.edu">txy3@cornell.edu</a>
+                  </b>
                   !
                 </small>
               </p>
             </>
           )}
-
         </article>
         <br></br>
       </Container>

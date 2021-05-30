@@ -1,7 +1,7 @@
 import React from "react"
 import Img from "gatsby-image"
 import { Container, Row, Col, Badge } from "react-bootstrap"
-import GitHubIcon from '@material-ui/icons/GitHub';
+import GitHubIcon from "@material-ui/icons/GitHub"
 
 const ProjectCard = ({ frontmatter, image }) => {
   const { project, startDate, endDate, link } = frontmatter
@@ -24,8 +24,9 @@ const ProjectCard = ({ frontmatter, image }) => {
           <a href={`${link}`}>
             <GitHubIcon
               style={{
-                fontSize: '40'
-              }} />
+                fontSize: "40",
+              }}
+            />
           </a>
         </h2>
       </div>
@@ -43,7 +44,7 @@ export default ({ html, frontmatter, image }) => {
         <Col className="col-md-8 col-12">
           <p
             className="text-justify mt-2"
-            style={{ fontSize: 25, listStyleType: 'none' }}
+            style={{ fontSize: 25, listStyleType: "none" }}
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </Col>

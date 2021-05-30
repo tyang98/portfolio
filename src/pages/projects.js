@@ -11,9 +11,7 @@ export default ({ data }) => {
   return (
     <PageLayout>
       <SEO title="Projects" />
-      <PageTitle title="Projects">
-        &nbsp;
-      </PageTitle>
+      <PageTitle title="Projects">&nbsp;</PageTitle>
       <Container className="mt-5 pt-3" fluid>
         {history.map(({ node }) => (
           <div key={node.id}>
