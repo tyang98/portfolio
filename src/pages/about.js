@@ -51,8 +51,8 @@ export default ({ data }) => {
             >
               CreditWise
             </a>
-            Data Team. For the past 2 years I have been a software developer at
-            &nbsp;
+            &nbsp;Data Team. For the past 2 years I have been a software
+            developer at &nbsp;
             <a
               href="https://www.cornelldti.org/"
               target="_blank"
