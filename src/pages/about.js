@@ -42,7 +42,8 @@ export default ({ data }) => {
           </p>
           <p className="i-5">
             I am passionate about designing technology for social impact. I am
-            currently a Software Engineer Intern at Capital One working on the
+            currently a Software Engineer Intern at Capital One working on
+            the&nbsp;
             <a
               href="https://creditwise.capitalone.com/"
               target="_blank"
