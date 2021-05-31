@@ -61,9 +61,10 @@ export default ({ data }) => {
               Cornell Design & Tech Initiative
             </a>
             &nbsp;helping solve real problems to assist the community. I have
-            experience with both frontend web (React) and mobile (Android,
-            Flutter, React Native) development. Also, my interests currently lie
-            in full-stack development, Programming Language Theory, and systems.
+            experience with both frontend and backend web (React, Express)
+            development, as well as mobile (Android, Flutter, React Native)
+            development. Also, my interests currently lie in full-stack
+            development, Programming Language Theory, and systems.
           </p>
           <p className="i-5">
             Aside from programming and tech, I enjoy music, basketball,
