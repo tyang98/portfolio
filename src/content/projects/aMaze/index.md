@@ -2,8 +2,8 @@
 project: "aMaze"
 tags: ["C", "C#"]
 link: "https://pages.github.coecis.cornell.edu/ece3140-sp2021/cl859-txy3/"
-startDate: "2021-4-27"
-endDate: "2021-5-21"
+startDate: "2020-04-27"
+endDate: "2020-05-18"
 ---
 
 A 3D marble maze game whose tilt and movement is controlled by the FRDM-KL25Z board. Players can try moving the marble throughout different types of mazes.
