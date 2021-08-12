@@ -41,8 +41,8 @@ export default ({ data }) => {
             &nbsp;studying CS and minoring in Math.
           </p>
           <p className="i-5">
-            I am passionate about designing technology for social impact. I am
-            currently a Software Engineer Intern at Capital One working on
+            I am passionate about designing technology for social impact. This
+            summer I worked as Software Engineer Intern at Capital One on
             the&nbsp;
             <a
               href="https://creditwise.capitalone.com/"
@@ -51,8 +51,10 @@ export default ({ data }) => {
             >
               CreditWise
             </a>
-            &nbsp;Data Team. For the past 2 years I have been a software
-            developer at &nbsp;
+            &nbsp;Data Team. I developed unsupervised learning models to help
+            identify profiles/clusters of users to accelerate offer acceptance
+            and engagement for CreditWise's business. For the past 2 years I
+            have been a software developer at &nbsp;
             <a
               href="https://www.cornelldti.org/"
               target="_blank"
