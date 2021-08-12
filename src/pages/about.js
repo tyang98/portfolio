@@ -38,11 +38,11 @@ export default ({ data }) => {
             >
               Cornell University
             </a>
-            &nbsp;studying CS and minoring in Math.
+            &nbsp;studying Computer Science.
           </p>
           <p className="i-5">
             I am passionate about designing technology for social impact. This
-            summer I worked as Software Engineer Intern at Capital One on
+            summer I worked as a Software Engineer Intern at Capital One on
             the&nbsp;
             <a
               href="https://creditwise.capitalone.com/"
@@ -52,7 +52,7 @@ export default ({ data }) => {
               CreditWise
             </a>
             &nbsp;Data Team. I developed unsupervised learning models to help
-            identify profiles/clusters of users to accelerate offer acceptance
+            segment users into different profiles/clusters to accelerate offer acceptance
             and engagement for CreditWise's business. For the past 2 years I
             have been a software developer at &nbsp;
             <a
@@ -66,7 +66,7 @@ export default ({ data }) => {
             experience with both frontend and backend web (React, Express)
             development, as well as mobile (Android, Flutter, React Native)
             development. Also, my interests currently lie in full-stack
-            development, Programming Language Theory, and systems.
+            development, Programming Language Theory, and database systems.
           </p>
           <p className="i-5">
             Aside from programming and tech, I enjoy music, basketball,
