@@ -30,7 +30,7 @@ export default ({ data }) => {
             ))}
           </p>
           <p className="i-5 mt-4 pt-2">
-            Hi there, I'm <b>Tony</b>. I am a rising junior at&nbsp;
+            Hi there, I'm <b>Tony</b>. I am a junior at&nbsp;
             <a
               href="https://www.cornell.edu/"
               target="_blank"
