@@ -42,11 +42,12 @@ export default ({ data }) => {
                 {" "}
                 <span class="wave" role="img" aria-label="Wave">
                   👋
-                </span>
+                </span>{" "}
                 Junior Studying CS @ Cornell
+                {" "}
                 <span class="wave" role="img" aria-label="Wave">
                   👋
-                </span>
+                </span>{" "}
               </b>
             </i>
           </p>
