@@ -90,8 +90,7 @@ export default ({ data }) => {
                 <small>
                   I am{" "}
                   <b>
-                    currently looking for Software Engineering Internships for
-                    Summer 2022
+                    currently looking for full time Software Engineer opportunities.
                   </b>
                   ! If you like what you <Link to="/projects">see</Link>, you
                   can contact me at{" "}
