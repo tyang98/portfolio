@@ -52,9 +52,9 @@ export default ({ data }) => {
               CreditWise
             </a>
             &nbsp;Data Team. I developed unsupervised learning models to help
-            segment users into different profiles/clusters to accelerate offer acceptance
-            and engagement for CreditWise's business. For the past 2 years I
-            have been a software developer at &nbsp;
+            segment users into different profiles/clusters to accelerate offer
+            acceptance and engagement for CreditWise's business. For the past 2
+            years I have been a software developer at &nbsp;
             <a
               href="https://www.cornelldti.org/"
               target="_blank"
@@ -77,8 +77,12 @@ export default ({ data }) => {
           <p className="i-5">
             Whether it is making games, websites, or mobile apps, my goal is to
             make things that others can enjoy as well. Check out my{" "}
-            <Link to="/projects">projects</Link> to see my past and current
-            work.
+            <Link to="/projects">projects</Link> to see my past and current work
+            or my{" "}
+            <a href="../../resume.pdf" target="_blank">
+              resume
+            </a>{" "}
+            to learn about my experience and skills.
           </p>
           <br></br>
         </article>
@@ -90,7 +94,8 @@ export default ({ data }) => {
                 <small>
                   I am{" "}
                   <b>
-                    currently looking for Software Engineer Internship opportunities.
+                    currently looking for Software Engineer Internship
+                    opportunities.
                   </b>
                   ! If you like what you <Link to="/projects">see</Link>, you
                   can contact me at{" "}
@@ -106,8 +111,8 @@ export default ({ data }) => {
         <br></br>
       </Container>
     </PageLayout>
-  )
-}
+  );
+};
 
 export const query = graphql`
   query {
@@ -120,4 +125,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;
