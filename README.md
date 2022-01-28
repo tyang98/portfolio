@@ -1,7 +1,7 @@
 # portfolio
 
 Made with GatsbyJS, which is blazing fast.
-Learn more by visiting my personal website [here!](https://tyang.netlify.app/)
+Learn more by visiting my personal website [here!](https://tonyxyang.com)
 
 Check out some stats related to my work:
 
