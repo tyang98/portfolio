@@ -43,7 +43,7 @@ export default ({ data }) => {
                 <span class="wave" role="img" aria-label="Wave">
                   👋
                 </span>{" "}
-                Junior Studying CS @ Cornell
+                Senior Studying CS @ Cornell
                 {" "}
                 <span class="wave" role="img" aria-label="Wave">
                   👋
