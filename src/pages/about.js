@@ -30,7 +30,7 @@ export default ({ data }) => {
             ))}
           </p>
           <p className="i-5 mt-4 pt-2">
-            Hi there, I'm <b>Tony</b>. I am a junior at&nbsp;
+            Hi there, I'm <b>Tony</b>. I am a rising senior at&nbsp;
             <a
               href="https://www.cornell.edu/"
               target="_blank"
@@ -41,8 +41,8 @@ export default ({ data }) => {
             &nbsp;studying Computer Science.
           </p>
           <p className="i-5">
-            I am passionate about designing technology for social impact. This
-            summer I worked as a Software Engineer Intern at Capital One on
+            I am passionate about designing technology for social impact. Last
+            summer, I worked as a Software Engineer Intern at Capital One on
             the&nbsp;
             <a
               href="https://creditwise.capitalone.com/"
@@ -94,7 +94,7 @@ export default ({ data }) => {
                 <small>
                   I am{" "}
                   <b>
-                    currently looking for Software Engineer Internship
+                    currently looking for Software Engineer 
                     opportunities.
                   </b>
                   ! If you like what you <Link to="/projects">see</Link>, you
