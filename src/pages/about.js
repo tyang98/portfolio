@@ -54,8 +54,8 @@ export default ({ data }) => {
             </a>
             &nbsp;Data Team. I developed unsupervised learning models to help
             segment users into different profiles/clusters to accelerate offer
-            acceptance and engagement for CreditWise's business. For the past 2
-            years I have been a software developer at &nbsp;
+            acceptance and engagement for CreditWise's business. In the past,
+            I have been a software developer at &nbsp;
             <a
               href="https://www.cornelldti.org/"
               target="_blank"
