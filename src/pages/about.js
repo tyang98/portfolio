@@ -68,8 +68,8 @@ export default ({ data }) => {
             Polymer, Spanner) development, as well as mobile (Android, Flutter,
             React Native) development. Also, my interests currently lie in
             full-stack development, Programming Language Theory, and computer
-            viion.
-          </p>
+            vision.
+            
           <p className="i-5">
             Aside from programming and tech, I enjoy music, basketball,
             photography, and food. In my free time, I am usually on a court
