@@ -69,7 +69,7 @@ export default ({ data }) => {
             React Native) development. Also, my interests currently lie in
             full-stack development, Programming Language Theory, and computer
             vision.
-            
+          </p> 
           <p className="i-5">
             Aside from programming and tech, I enjoy music, basketball,
             photography, and food. In my free time, I am usually on a court
